@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt,onepage]{article}
+\usepackage{report}
+
+\begin{document}
+
+\pagenumbering{roman}
+\input{sec/titlepage}
+\clearpage\input{sec/approval}
+\clearpage\input{sec/copyright}
+\clearpage\input{sec/acknowledgment}
+\clearpage\input{sec/abstract}
+
+{\setlength{\parskip}{0pt}
+  % Table of contents
+  \clearpage
+  \phantomsection\addcontentsline{toc}{section}{TABLE OF CONTENTS}
+  \renewcommand{\contentsname}{TABLE OF CONTENTS}
+  \tableofcontents
+
+  % List of figures
+  \clearpage
+  \phantomsection\addcontentsline{toc}{section}{LIST OF FIGURES}
+  \renewcommand{\listfigurename}{LIST OF FIGURES}
+  \listoffigures
+
+  % List of tables
+  \clearpage
+  \renewcommand{\listtablename}{LIST OF TABLES}
+  \phantomsection\addcontentsline{toc}{section}{LIST OF TABLES}
+  \listoftables
+}
+
+\clearpage\input{sec/abbr}
+\clearpage\input{sec/intro}
+%\clearpage\input{sec/objectives}
+\clearpage\input{sec/literature}
+\clearpage\input{sec/methdology}
+\clearpage\input{sec/sdlc}
+%\clearpage\input{sec/sentiment}
+%\clearpage\input{sec/recommender}
+%\clearpage\input{sec/software}
+\clearpage\input{sec/result}
+\clearpage\input{sec/limitation}
+\clearpage\input{sec/conclusion}
+\clearpage\input{sec/references}
+
+\end{document}

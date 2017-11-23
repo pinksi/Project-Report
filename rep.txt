@@ -1,0 +1,14 @@
+Result analysis of news sentiment
+\begin{table}
+\hf{Terminology} & \hf{Values}\\
+Sensitivity(True positive rate) & 0.7500\\
+\hline
+Specificity(True negative rate) & 0.5833\\
+Precision(Positive predictive value) & 0.7297\\
+Recall(Negative predictive value) & 0.6086\\
+Matthews correlation coefficient & 0.3358\\
+F1 score & 0.7397\\
+Bookmaker informedness & 0.3333\\
+Markedness & 0.3383\\
+Accuracy & 68.3300\\
+\end{table}

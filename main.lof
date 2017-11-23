@@ -1,0 +1,21 @@
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ANN Model\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Table showing activation function\relax }}{15}{figure.caption.10}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Backpropagation Algorithm\relax }}{16}{figure.caption.11}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces KNN model\relax }}{19}{figure.caption.12}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Equation of Bayes theorem\relax }}{22}{figure.caption.13}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Agile Development Life Cycle\relax }}{24}{figure.caption.14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Overall system architecture\relax }}{27}{figure.caption.16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Level-1 dataflow diagram (DFD)\relax }}{29}{figure.caption.17}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Level-2 dataflow diagram (DFD)\relax }}{29}{figure.caption.18}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Use case diagram\relax }}{30}{figure.caption.19}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Activity diagram\relax }}{31}{figure.caption.20}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Class diagram\relax }}{32}{figure.caption.21}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Sequence diagram for Fundamental Analysis\relax }}{32}{figure.caption.22}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Sequence diagram For technical analysis using NN \relax }}{33}{figure.caption.23}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Sequence diagram for New Analysis\relax }}{33}{figure.caption.24}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Sequence diagram for Data Visualization\relax }}{34}{figure.caption.25}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Result comparision for varying number of neurons in hidden layer\relax }}{41}{figure.caption.27}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Result analysis showing 30 hidden layer neurons\relax }}{41}{figure.caption.28}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Result analysis of classification using ANN\relax }}{42}{figure.caption.29}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Result analysis of classification using KNN\relax }}{43}{figure.caption.30}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Result analysis of classification using news-sentiment\relax }}{44}{figure.caption.31}

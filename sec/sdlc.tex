@@ -1,0 +1,126 @@
+\section{Software development methodology}
+\subsection{Software Development Life Cycle}
+\begin{figure}[h!]\centering
+	\fbox{\includegraphics[width=4in]{fig/agile}}
+	\caption{Agile Development Life Cycle}
+	\label{fig:agile}
+\end{figure}
+
+For the project Agile software development life cycle was followed. \cite{ad} The Agile software development life cycle is based upon the iterative and incremental process models, and focuses upon adaptability to changing product requirements and enhancing customer satisfaction through rapid delivery of working product features and client participation. Agile methods primarily focus upon breaking up the entire product into smaller, easily developable, "shippable" product features developed through "incremental" cycles known as "sprints". Agile methodology is an alternative to traditional project management, typically used in software development. Agile methodologies are an alternative to waterfall, or traditional sequential development. Agile development model is a type of Incremental model. Software is developed in incremental, rapid cycles. This results in small incremental releases with each release building on previous functionality. Each release is thoroughly tested to ensure software quality is maintained. Agile model is generally used for time critical applications.
+
+The Agile Manifesto is based on twelve principles :
+\begin{itemize}
+	\item Customer satisfaction by early and continuous delivery of valuable software
+	\item Welcome changing requirements, even in late development
+	\item Working software is delivered frequently (weeks rather than months)
+	\item Close, daily cooperation between business people and developers
+	\item Projects are built around motivated individuals, who should be trusted
+	\item Face-to-face conversation is the best form of communication (co-location)
+	\item Working software is the principal measure of progress
+	\item Sustainable development, able to maintain a constant pace
+	\item Continuous attention to technical excellence and good design
+	\item Best architectures, requirements, and designs emerge from self-organizing teams
+	\item Regularly, the team reflects on how to become more effective, and adjusts accordingly
+\end{itemize}
+
+The major characteristics of this model are listed below:
+\begin{enumerate}
+	\item Self-organisation and motivation takes precedence over delegation of authority and following the "seniority" hierarchy. The Agile team has to collaborate and share ideas to develop the product "as a whole" unit i.e. each member should support a common vision.
+	\item Agile concentrates upon delivering sustained "working" product releases through product incremental cycles over documentation and working protocols. The main objective is to develop, and deliver, bug free product feature releases in a continuous and sustained manner until the entire product is developed.
+	\item Agile focuses upon incorporating dynamic changes in the product development cycle. Changes in the product features can be easily and effortlessly carried out by developing "user stories"- product functionality or features as defined in the product backlog.
+	\item Stakeholders and project owners "clear" the product features developed through the sprint cycles. A lot of time is saved through customer collaboration, and the project proceeds in a successful manner as the client always approves the development keeping in mind the current market trends.
+\end{enumerate}
+
+The project is started by preparing the backlog. The backlog contains the modular decomposition of the overall system. Then the requirement specification and system model diagrams are prepared. Agile is an adaptive model which allows continuous changes in the system requirements as well the system model.
+
+\subsection{Requirement Analysis}
+The functional and non-functional requirements of this project are as listed below.
+\subsubsection{Functional Requirements}
+\begin{itemize}
+	\item The system shall examine the stocks of different companies based on the technical indicators, fundamental factors and news sentiments.
+	\item The system shall predict the current value of a stock based on past values of that stock.
+	\item The system shall predict the increase or decrease of the NEPSE index based on news analysis.
+	\item The system shall predict the intrinsic worth of a company based on the fundamental indicators of the company.
+	\item The system shall provide visualization of the stock market's data for individual companies of different sectors.
+\end{itemize}
+
+\subsubsection{ Non-Functional Requirements}
+\begin{itemize}
+	 \item The system must predict stock market with acceptable accuracy.  
+	\item The data used for the prediction and analysis should be real and fault proof. Irregularities in data should be removed by using various techniques.
+	\item The prediction system should be dynamic enough to easily adapt with the daily increase in the number of data.
+	\item The visualization should be adaptive to dynamically add new data.
+\end{itemize}
+
+\subsection{Backlog}
+The backlog of project is described in the table \ref{tab:Backlog}
+{
+	\renewcommand{\arraystretch}{1.5}
+	\begin{table}
+	\begin{tabular}{|p{3cm}|p{7cm}|p{2cm}|p{2cm}|}
+	\hline
+	{\bf Story} & {\bf Task} & {\bf Time Estimation(Days)} & {\bf Time Estimation(Hours)}\\
+	\hline
+	\multirow{6}{3cm}{As a user, I should have access to stock data} & Crawl data from Merolagani, Sharesansar and NEPSE website & 7 & 35\\
+	\cline{2-4}
+	& Clean the data obtained from the web & 1 & 5\\
+	\cline{2-4}
+	& Design a data model and represent the data in proper format & 7 & 35\\
+	\cline{2-4}
+	& CRUD on the available data set & 7 & 35\\
+	\cline{2-4}
+	& Design simple User Interface to view the stock data & 6 & 30\\
+	\cline{2-4}
+	& Perform Tests & 2 & 10\\
+	\cline{2-4}
+	\hline
+	\multirow{5}{3cm}{As a user, I should be able to visualize the stock data for various companies and sector, compare and analyze them} & Represent data in proper format for visualization & 3 & 15\\
+	\cline{2-4}
+	& User Interface for data visualization & 3 & 15\\
+	\cline{2-4}
+	& Implementation of data visualization using Amcharts & 7 & 35\\
+	\cline{2-4}
+	& Design and write test cases & 4 & 20\\
+	\cline{2-4}
+	& Perform test & 1 & 5\\
+	\cline{2-4}
+	\hline
+	\multirow{3}{3cm}{As a user, I should be able to view the fundamental background of a company} & Represent the fundamental data in proper format & 5 & 25\\
+	\cline{2-4}
+	& User Interface for viewing fundamental data & 4 & 20\\
+	\cline{2-4}
+	& Integrate back-end and front-end & 4 & 20\\
+	\hline 
+	\multirow{8}{3cm}{As a user I should be able to predict the company wise stock price} & Design a model of data for prediction & 7 & 35\	\
+	\cline{2-4}
+	& Design the prediction engine using ANN & 25 & 125\\
+		\cline{2-4}
+		& Implement the prediction engine & 15 & 75\\
+	\cline{2-4}
+	& Refine the ANN model & 5 & 25\\
+	\cline{2-4}
+	& Design the prediction engine using KNN & 5 & 25\\
+	\cline{2-4}
+	& Implement the prediction engine & 2 & 10\\
+	\cline{2-4}	
+	& Test the prediction engine & 2 & 10\\
+	\hline
+	\multirow{5}{3cm}{As a user I should be able to predict the nepse index} & Design a news data model for prediction & 10 & 50\\
+	\cline{2-4}
+	& Design a prediction using KNN & 5 & 25\\
+	\cline{2-4}
+	& Implement the prediction engine & 2 & 10\\
+	\cline{2-4}
+	& Test the prediction engine & 2 & 10\\
+	\hline
+	\end{tabular}
+	\caption{Backlog}
+	\label{tab:Backlog}
+
+\end{table}
+}
+
+\input{sec/design}
+%by anuj
+\input{sec/tools}
+
